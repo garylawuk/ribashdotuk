@@ -8,7 +8,9 @@ Windows users — open `powershell.exe`:-
 mkdir $HOME\sqlite
 cd $HOME\sqlite
 curl -O sqlite.zip https://sqlite.org/snapshot/sqlite-tools-win32-x64-202310241106.zip
-Expand-Archive .\sqlite.zip
+curl -O sampledata2.zip https://ribash.uk/sampledata2.zip
+Expand-Archive -DestinationPath . .\sqlite.zip
+Expand-Archive -DestinationPath . .\sampledata2.zip
 ```
 
 Mac users — open `Terminal.app`:-
@@ -16,15 +18,20 @@ Mac users — open `Terminal.app`:-
 ```zsh
 mkdir $HOME/sqlite
 cd $HOME/sqlite
+curl -O https://ribash.uk/sampledata2.zip
+unzip sampledata2.zip
 ```
 
 ---
 ## Download sample data
 
-- Download sample data from [https://is.gd/sampledata2_zip](https://is.gd/sampledata_zip)
+If the command line instructions don't work, do the following in the UI
+
+- Download sample data from Teams
 - save this into your sqlite directory
-- unzip this using `Expand-Archive` on Windows or `unzip` on Mac
+- unzip this 
 - delete the zip archive
+- install sqlite into the same directory
 
 ---
 ## Create a database
