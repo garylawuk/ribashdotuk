@@ -38,13 +38,13 @@ If the command line instructions don't work, do the following in the UI
 
 - open a new empty sample database
 
-PC
+  - PC
 
 ```pwsh
 .\sqlite3.exe .\sample.db
 ```
 
-Mac
+  - Mac
 
 ```zsh
 sqlite3 sample.db
@@ -163,6 +163,7 @@ SELECT * FROM braccio_positions LIMIT 5;
 SELECT DISTINCT electrical_power FROM braccio_positions LIMIT 10;
 SELECT COUNT(*) FROM braccio_positions;
 SELECT COUNT(*) FROM  braccio_positions WHERE electrical_power='90';
+SELECT AVG(electrical_power) FROM braccio_positions;
 ```
 
 ---
@@ -193,7 +194,7 @@ There are many other valid approaches for the schema and the import
 - autoincrement the entry ID, remove entry ID from CSV before entry
 - clean up the csvs to remove extraneous trailling ','s
 - create a table for robot_names and introduce referential integrity
-
+- use NoSQL in the cloud
 
 ---
 ## Save the DB
