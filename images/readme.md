@@ -1,8 +1,8 @@
 # Images
 
-Go here
+![alt](https://ribash.uk/images/councilwifilogo.png)
 
-![alt](https://ribash.uk/images/291A0491.jpg)
+[councilwifilogo](https://ribash.uk/images/councilwifilogo.png)
 
 ![alt](https://ribash.uk/images/291A0508.jpg)
 
@@ -13,3 +13,5 @@ Go here
 ![alt](https://ribash.uk/images/291A0590.jpg)
 
 ![alt](https://ribash.uk/images/291A0615.jpg)
+
+![councilwifilogo](https://ribash.uk/images/councilwifilogo.png)
